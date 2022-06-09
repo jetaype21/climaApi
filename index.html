@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form id="seachForm">
+            <div class="search__container">
+                <input type="text" autocomplete="off" placeholder="Buscar ciudad...." id="searchCountry" class="search">
+            </div>
+        </form>
+
+        <article class="card__body">
+            <span class="country" id="country"></span>
+            <span class="date" id="date"></span>
+            <div class="container__temp">
+                <img id="tempImg" src="./imagenes/temp-mid.png" class="temp__img">
+                <span id="grades"></span>
+            </div>
+            <span id="statusTime"></span>
+            <span id="gradesRange"></span>
+        </article>
+        <script src="./app.js"></script>
+    </main>
+
+</body>
+
+</html>
